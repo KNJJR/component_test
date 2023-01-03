@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { UserInformationProvider } from "./components/providers/UserInformationProvider";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <UserInformationProvider>
+      <App />
+    </UserInformationProvider>
   </React.StrictMode>
 );
 

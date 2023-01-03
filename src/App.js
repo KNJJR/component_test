@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import 'bulma/css/bulma.css';
 import './App.css';
-import { CostomerContents } from "./CostomerContents"
+import { CostomerContents } from "./components/CostomerContents"
 
 function App() {
   return (

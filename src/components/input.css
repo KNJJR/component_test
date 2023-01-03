@@ -31,5 +31,10 @@
 }
 
 .fit-picture {
-  width: 1000px;
+  width: 250px;
+}
+
+.pdf_area {
+  width: 250px;
+  height: 250px;
 }
