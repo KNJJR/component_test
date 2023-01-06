@@ -14,6 +14,7 @@ export const InputName = (props) => {
     const changeFirstName = e => setFirstName((firstName)=>(firstName=e.target.value));
  
     const handleSubmit = e => {
+      e.preventDefault(); //デプロイ時に消す
       if(lastName === "" || firstName === ""  ){
         return
       }

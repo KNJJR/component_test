@@ -1,12 +1,14 @@
 import React from 'react';
 import 'bulma/css/bulma.css';
 import './App.css';
-import { CostomerContents } from "./components/CostomerContents"
+import { Main } from "./components/Main"
 
 function App() {
   return (
     <div className="container is-fluid">
-      <CostomerContents />
+       {/*<Header /> */}
+        <Main />
+       {/* <Footer />*/}
     </div>
   );
 }
